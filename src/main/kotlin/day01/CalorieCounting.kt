@@ -43,8 +43,6 @@ import InputReader.readFileAsText
  *
  * Find the Elf carrying the most Calories. How many total Calories is that Elf carrying?
  *
- * Your puzzle answer was 70764.
- *
  * --- Part Two ---
  *
  * By the time you calculate the answer to the Elves' question, they've already realized that the Elf carrying the most Calories of food might eventually run out of snacks.

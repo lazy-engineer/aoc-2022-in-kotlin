@@ -33,8 +33,6 @@ import day02.Choice.*
  *
  * What would your total score be if everything goes exactly according to your strategy guide?
  *
- * Your puzzle answer was 13009.
- *
  * --- Part Two ---
  *
  * The Elf finishes helping with the tent and sneaks back over to you. "Anyway, the second column says how the round needs to end: X means you need to lose, Y means you need to end the round in a draw, and Z means you need to win. Good luck!"
@@ -63,7 +61,6 @@ private val matchOutcomeStrategy = MatchOutcomeStrategy(
 )
 fun rockPaperScissors() {
     val secretStrategyList = readFileAsLinesUsingUseLines("./src/main/resources/DayTwoInput.txt")
-
 
     matchList(secretStrategyList).calculatePoints(matchOutcomeStrategy)
 }

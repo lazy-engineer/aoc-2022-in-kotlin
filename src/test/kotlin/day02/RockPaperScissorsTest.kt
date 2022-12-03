@@ -4,7 +4,7 @@ import org.amshove.kluent.`should be`
 import org.amshove.kluent.`should be equal to`
 import org.junit.jupiter.api.Test
 
-class RockPaperScissorsKtTest {
+class RockPaperScissorsTest {
 
     private val input = """
       A Y
